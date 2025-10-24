@@ -1,3 +1,6 @@
+### Link to colab: https://colab.research.google.com/drive/1cUDtBFkbRPO70_0qv32JL3S1nn0XjT_k?usp=sharing
+
+
 # medical-research-forecast
 The repository is about an AI pipeline to forecast emerging research areas in the medical field based on the "https://huggingface.co/datasets/louisbrulenaudet/clinical-trials".
 
