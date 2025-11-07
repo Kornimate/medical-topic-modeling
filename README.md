@@ -124,3 +124,9 @@ Each member contributes complementary skills to ensure balanced development:
 - First clustering results with anchors.  
 - Evaluation metrics and visual summaries.  
 - Final report and README polishing before Milestone P3 submission.
+
+## Appendix
+### Contents of repository:
+ - `main.ipynb` : main notebook containing preprocessing and analysation pipeline
+ - `README.md` : readme file containging the project description
+ - `.gitignore` : gitignore file to avoid tracking unnecessary files
