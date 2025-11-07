@@ -28,7 +28,7 @@ Our project contributes a **hybrid topic modeling pipeline** for large-scale bio
 We use the **Clinical Trials dataset** from Hugging Face:  
 [https://huggingface.co/datasets/louisbrulenaudet/clinical-trials](https://huggingface.co/datasets/louisbrulenaudet/clinical-trials)
 
-### *Relevant Fields (used in this project)*
+### **Relevant Fields (used in this project)**
 - `nct_id` — unique trial identifier (index / joins).
 - `brief_title` — short title.
 - `brief_summary`, `detailed_description` — primary textual inputs for embeddings.
@@ -59,7 +59,7 @@ No extrenal datasets are used. All modeling and evaluation rely on this dataset.
 - Each trial’s free text content will be encoded into an embedding vector representation.  
 - We may use dimensionality reduction (PCA or UMAP) for visualization and clustering efficiency.
 
-### *2. Anchor Construction*
+### **2. Anchor Construction**
 - Extract relevant information and controlled terms from:  
   - `mesh_terms_clean`
   - `condition_browse_module_clean`
@@ -80,7 +80,7 @@ No extrenal datasets are used. All modeling and evaluation rely on this dataset.
 	- DBSCAN
     - HDBSCAN 
 
-### *4. Evaluation*
+### **4. Evaluation**
 - **Intrinsic metrics:**  
   - Topic coherence (UMass / c_v).  
   - Silhouette score and intra-cluster variance.  
