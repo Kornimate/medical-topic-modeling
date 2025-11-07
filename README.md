@@ -100,10 +100,10 @@ No extrenal datasets are used. All modeling and evaluation rely on this dataset.
   Generate transformer embeddings for trial descriptions and anchor terms, validate embedding quality through nearest-neighbor inspection.
 
 - **Phase 3 – Anchored Clustering / Topic Modeling:**  
-  Implement anchor-guided clustering or modified BERTopic, experiment with anchor weighting and features, and tune the number of topics.
+  Implement either anchor-guided clustering or modified BERTopic, experiment with anchor weighting and features, and fine-tune the number of topics.
 
-- **Phase 4 – Evaluation and Refinement:**  
-  Measure alignment with pre-known categories, observe interpretability, and visualize results.
+- **Phase 4 – Evaluation:**  
+  Measure alignment with pre-known categories, observe the interpretability, and visualize results.
 
 - **Phase 5 – Documentation and Report Preparation:**  
   Finalize code and visualizations, update README, and prepare the final report and presentation.
