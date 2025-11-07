@@ -39,7 +39,7 @@ We use the **Clinical Trials dataset** from Hugging Face:
 - `intervention_browse_module` — anchor + feature.
 - `conditions` — raw condition strings, normalization + anchor backfill.
 - `interventions` — raw intervention strings, normalization + anchor backfill.
-> We rely on the columns above. Other metadata features are **not** central to our analysis and therefore omitted from the procedure.
+> We rely on the columns above. Other metadata features are **not** esential to our analysis and therefore omitted from the procedure.
 
 ### **Data Handling**
 
@@ -51,8 +51,6 @@ We use the **Clinical Trials dataset** from Hugging Face:
 - Structured terms are preprocessed to form anchor sets and will be mapped to embedding space.  
 
 No extrenal datasets are used. All modeling and evaluation rely on this dataset. The dataset has only training set, so split will be necessary for model training but preprocess is necessary for all data.
-
----
 
 ## **Methods**
 
@@ -80,7 +78,7 @@ No extrenal datasets are used. All modeling and evaluation rely on this dataset.
  	- KMEANS
 	- KMEDIOID
 	- DBSCAN
-  - HDBSCAN 
+    - HDBSCAN 
 
 ### *4. Evaluation*
 - **Intrinsic metrics:**  
