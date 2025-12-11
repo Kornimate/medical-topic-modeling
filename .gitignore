@@ -208,3 +208,6 @@ __marimo__/
 
 clinical-dataset
 cleaned_clinical_trials_dataset
+clinical*
+model_safetensors
+model_saved
