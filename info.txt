@@ -1,2 +1,0 @@
-Clustering high dimensional vectors
-HDBSCAN for topic modeling
